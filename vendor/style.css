@@ -1,0 +1,301 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.background-header {
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #DE6060;
+}
+.nav-maxima {
+    margin-left: auto;
+}
+.nav-maxima .nav-link {
+    transition: color ease-in 0.5s;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.nav-maxima .nav-link:hover {
+    color: #FFF389;
+}
+
+.hero-page {
+    margin-top: 140px;
+    margin-bottom: 60px;
+}
+.card-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+.card-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F2F2F2;
+}
+.text-span {
+    color: #FFF389;
+}
+.text-span1{
+    color: #3484E2;;
+}
+.btn {
+    transition: background-color ease-in 0.5s;
+}
+.btn-primary {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3484E2;
+    border-radius: 35px;    
+}
+.btn-primary:hover {
+    border: 1px solid #FFF389;
+    color: #454545;
+    background-color: #FFF389;
+}
+
+.page-content{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    max-width: 100%;
+    margin-top: 80px;
+}
+.text-title-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #494848;
+}
+.card-title-content {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    color: #494848;
+    }
+.card-text-content {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 33px;
+    color: #797979;
+}
+
+.background2{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0px 50px 0px;
+    z-index: 0;
+    margin-top: 70px;
+    background-color: #B6D5FA;
+}
+.unggulan-card-bg-blue {
+    z-index: 1;
+    width: 800px;
+}
+
+.background3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 0px 70px 0px;
+    z-index: 0;
+    margin-top: 160px;
+    background-color: #9DEADC;
+}
+.background3 .card{
+    margin-left: auto;
+    margin-right: 30px;
+    padding: 15px;
+    width: 25rem;
+    margin-top: 50px;
+    border: 0px;
+    background: #FFFFFF;
+    border-radius: 47px;
+}
+.card-title-form {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+    color: #79AFEF;
+}
+.form-label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 39px;
+    color: #767676;
+}
+.form-control {
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 11px;
+}
+.form-control::placeholder {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 39px;
+    color: #C4C4C4;
+}
+.span-form {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    color: #797979;
+}
+.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    color: #3484E2;
+}
+.background3 .text-title-content{
+    color: #FFFFFF;
+    top: -120px;
+    left: -80px;
+}
+
+.testi {
+    margin-top: 180px;
+    width: 100%;
+}
+.bg-testi{
+    margin-left: auto;
+    width: 50rem;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    right: 0;
+    background-color: #B6D5FA;
+}
+.card-testi {
+    padding: 0px 20px 20px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.card-testi .card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 52px;
+    color: #4A4A4A;
+}
+.card-testi .card-subtitle {
+    margin-top: -25px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 52px;
+    color: #767676;   
+}
+.card-testi .card-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #6d6d6d;
+}
+
+footer {
+    margin-top: 160px;
+}
+.bg-footer{
+    margin-left: auto;
+    width: 70rem;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    left: 0;
+    background-color: #A8F3E6;
+}
+.footer-q{
+    padding: 60px 0px;
+}
+.footer-title   {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 39px;
+    color: #0F0F0F;
+}
+.text-maxima-footer{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #585858;
+}
+.title-nav-footer {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    color: #454545;
+}
+.nav-footer .nav-link {
+    margin-left: -14px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5c5c5c;
+}
+.nav-footer .nav-link:hover {
+    color: #3484E2;
+}
+@media (max-width:967px) {
+    .bg-footer{
+        width: 100%;
+        height: 600px;
+    }
+}
+
+@media (max-width:767px) {
+    .unggulan-card-bg-blue {
+        z-index: 1;
+        width: 100%;
+    }
+    .background3{
+        width: 100%;
+    
+    }
+    .background3 .text-title-content{
+        color: #FFFFFF;
+        top:-15%;
+        left: 0;
+    }
+
+    .card-testi {
+        margin-top: 80px;
+    }
+    .bg-footer{
+        width: 100%;
+        height: 600px;
+    }
+    .nav-footer-nav {
+        margin-top: 20px;
+    }
+}
+@media (max-width:545px) {
+    .background3 .card{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .background3 {
+        width: 100%;
+    }
+}
