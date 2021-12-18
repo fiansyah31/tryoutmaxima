@@ -256,10 +256,24 @@ footer {
 .nav-footer .nav-link:hover {
     color: #3484E2;
 }
+.nav-footer .nav-item img {
+    width: 100px;
+}
 @media (max-width:967px) {
     .bg-footer{
         width: 100%;
         height: 600px;
+    }
+    .nav-maxi .btn-primary {
+        width: 100%;
+    }
+    .nav-maxima {
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+    .nav-maxima .nav-item .nav-link {
+        color: #4A4A4A;
     }
 }
 
