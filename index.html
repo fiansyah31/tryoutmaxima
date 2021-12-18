@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="/vendor/style.css">
     <title>Tyrout Maxima</title>
   </head>   
-  <body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <body data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
                
    <div class="background-header w-100 pb-5 pt-4">
        <header>
-           <nav class="navbar navbar-expand-lg nav-maxi navbar-light" id="navbar-example2">
+           <nav class="navbar navbar-expand-lg nav-maxi navbar-light" >
                <div class="container">
                  <a class="navbar-brand" href="#">Navbar</a> 
                  <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
@@ -27,10 +27,10 @@
                 </button>
                 <div class="offcanvas offcanvas-end px-3" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tryout Maxima</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
-                  <div class="navbar-collapse">
+                  <div class="navbar-collapse" id="list-example">
                     <ul class="nav nav-maxima me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
@@ -52,7 +52,7 @@
                </div>
             </nav>
        </header>
-       <section class="hero-page" id="scrollspyHeading1">
+       <section class="hero-page">
            <div class="container-fluid">
             <div class="position-relative py-2">
               <img src="/image/linetwo.svg" class="position-absolute" alt="corak" style=" top: -90px; width: 80px; left: 0;" srcset="">
@@ -60,7 +60,7 @@
             <div class="position-relative py-2">
                 <img src="/image/corak-dot.svg" class="position-absolute" alt="corak" style=" top: -80px; width: 100px; left: 70%;" srcset="">
             </div>
-               <div class="row">
+               <div class="row" id="scrollspyHeading1">
                    <div class="col-12 col-md-6 col-lg-6 position-relative">
                        <div class="card mb-3 border-0" data-aos="fade-right" style="max-width: 100%; background: transparent;">
                         <div class="row g-0">
@@ -215,7 +215,7 @@
       </div>
     </div>
   </section>
-  <section class="form background3" id="scrollspyHeading3">
+  <section class="form background3 position-relative" id="scrollspyHeading3">
     <div class="container">
       <div class="row">
         <div class="col-12">
