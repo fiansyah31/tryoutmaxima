@@ -14,19 +14,21 @@
     <link rel="stylesheet" href="/vendor/style.css">
     <title>Tyrout Maxima</title>
   </head>   
-  <body data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <body>
                
    <div class="background-header w-100 pb-5 pt-4">
        <header>
            <nav class="navbar navbar-expand-lg nav-maxi navbar-light" >
                <div class="container">
-                 <a class="navbar-brand" href="#">Navbar</a> 
-                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                 <a class="navbar-brand" href="/">
+                   <img src="https://tryoutmaxima.com/images/logo.png" alt="brand">
+                 </a> 
+                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end px-3" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas offcanvas-end px-3" tabindex="-1" id="navbarOffcanvasLg">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tryout Maxima</h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="navbar-collapse" id="list-example">
@@ -51,6 +53,7 @@
                </div>
             </nav>
        </header>
+       <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="1"></div>
        <section class="hero-page">
            <div class="container-fluid">
             <div class="position-relative py-2">
@@ -363,23 +366,23 @@
           </div>
           <div class="col-12 col-md-4 col-lg-4 nav-footer-nav">
             <h4 class="title-nav-footer">
-              Tautau
+              Tautan
             </h4>
             <ul class="nav nav-footer flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="#">Panduan pendaftaran</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">Panduan pendaftaran</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Panduan pengerjaan</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">Panduan pengerjaan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Panduan pembayaran</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3">Panduan pembayaran</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Syarat dan ketentuan</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal4">Syarat dan ketentuan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Kebijakan kami</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal5">Kebijakan kami</a>
               </li>
             </ul>
           </div>
@@ -404,6 +407,283 @@
       </div>
     </div>
   </footer>
+
+  <!-- panduan pendaftaran modal -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Panduan pendaftaran</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ol>
+            <li class="modal-text mb-5">
+              Buka website www.tryoutmaxima.com. Silahkan pilih button Daftar Sekarang, kemudian pilih tryout yang Anda inginkan (UTBK atau CPNS) lalu isikan nama, alamat email aktif, password dan konfirmasi password pada kolom yang tersedia.
+            <img src="/image/panduan-pendaftaran1.JPG" class="img-fluid mt-2" alt="panduan-pendaftaran">
+            </li>
+            <li class="modal-text mb-5">
+              Setelah muncul notifikasi seperti di bawah ini artinya pendaftaran Anda telah berhasil. Anda bisa log in dengan cara klik tombol “masuk sekarang” dan masukkan email dan password yang telah Anda daftarkan.
+            <img src="/image/panduan-pendaftaran1.JPG" class="img-fluid mt-2" alt="panduan-pendaftaran">
+            </li>
+          </ol>
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- panduan pengerjaan -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Panduan pengerjaan</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ol>
+            <li class="modal-text mb-5">
+              Buka website www.tryoutmaxima.com. Silahkan pilih button Daftar Sekarang, kemudian pilih tryout yang Anda inginkan (UTBK atau CPNS) lalu isikan nama, alamat email aktif, password dan konfirmasi password pada kolom yang tersedia.
+            <img src="/image/panduan-pendaftaran1.JPG" class="img-fluid mt-2" alt="panduan-pendaftaran">
+            </li>
+            <li class="modal-text mb-5">
+              Setelah muncul notifikasi seperti di bawah ini artinya pendaftaran Anda telah berhasil. Anda bisa log in dengan cara klik tombol “masuk sekarang” dan masukkan email dan password yang telah Anda daftarkan.
+            <img src="/image/panduan-pendaftaran1.JPG" class="img-fluid mt-2" alt="panduan-pendaftaran">
+            </li>
+          </ol>
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- panduan pembayaran -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Panduan pembayaran</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ol>
+            <li class="modal-text mb-5">
+              Buka website www.tryoutmaxima.com. Silahkan pilih button Daftar Sekarang, kemudian pilih tryout yang Anda inginkan (UTBK atau CPNS) lalu isikan nama, alamat email aktif, password dan konfirmasi password pada kolom yang tersedia.
+            <img src="/image/panduan-pendaftaran1.JPG" class="img-fluid mt-2" alt="panduan-pendaftaran">
+            </li>
+            <li class="modal-text mb-5">
+              Setelah muncul notifikasi seperti di bawah ini artinya pendaftaran Anda telah berhasil. Anda bisa log in dengan cara klik tombol “masuk sekarang” dan masukkan email dan password yang telah Anda daftarkan.
+            <img src="/image/panduan-pendaftaran1.JPG" class="img-fluid mt-2" alt="panduan-pendaftaran">
+            </li>
+          </ol>
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Syarat dan ketentuan -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Syarat dan ketentuan</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6>
+            Syarat & ketentuan yang ditetapkan di bawah ini mengatur pemakaian jasa yang ditawarkan oleh MAXIMA terkait penggunaan situs ini. Dengan mendaftar dan/atau menggunakan situs ini, maka pengguna dianggap telah membaca, mengerti, memahami dan menyutujui semua isi dalam syarat & ketentuan.
+          </h6>
+          <h5 class="modal-title">
+            Defenisi
+          </h5>
+          <ol class="mt-3">
+            <li class="modal-text mb-2">
+              Maxima merupakan sebuah platform belajar online yang berbasis di instagram dan website yang menyediakan layanan berupa Try Out Online UTBK.
+            </li>
+            <li class="modal-text mb-2">
+              <a href="http://tryoutmaxima.com" target="_blank" rel="noopener noreferrer">Tyroutmaxima.com</a> adalah website resmi yang dimiliki dan dioperasikan oleh Maxima. Segala aktivitas yang berkaitan langsung dengan website ini sepenuhnya diatur oleh Maxima.
+            </li>
+            <li class="modal-text mb-2">
+              Peserta adalah semua pengguna dari jasa layanan MAXIMA yang sudah memenuhi persyaratan dan sudah melakukan pendaftaran.
+            </li>
+            <li class="modal-text mb-2">
+              Try Out Online UTBK adalah produk atau layanan jasa dari MAXIMA yang menyediakan latihan soal-soal untuk menghadapi UTBK SBMPTN.
+            </li>
+            <li class="modal-text mb-2">
+              Transaksi atau transaksi finansial adalah suatu kegiatan yang mengakibatkan adanya perpindahan dana dari peserta pada penyedia jasa (MAXIMA).
+            </li>
+            <li class="modal-text mb-2">
+              Bukti Pembayaran adalah dokumen yang diterbitkan sebagai tanda bahwa transaksi telah berhasil dilakukan.
+            </li>
+            <li class="modal-text mb-2">
+              Hari Kerja adalah hari MAXIMA pada umumnya melakukan kegiatan operasional kantor, yaitu Senin – Jum’at pukul 10.00-17.00 WIB.
+            </li>
+            <li class="modal-text mb-2">
+              Syarat dan Ketentuan adalah dokumen mengenai seluruh penambahan dan/atau perubahannya baik yang sudah ada maupun yang bisa terjadi di kemudian hari.
+          </ol>
+          <h5 class="modal-title mt-5">
+            SYARAT MENJADI PESERTA
+          </h5>
+          <h6 class="mt-3">
+            Untuk menjadi peserta pada Try Out Online UTBK di MAXIMA, terlebih dahulu wajib melakukan pendaftaran melalui website yang sudah disediakan di <a href="http://tryoutmaxima.com" target="_blank" rel="noopener noreferrer">Tryoutmaxima.com</a>
+          </h6>
+          <h5 class="modal-title mt-5">
+            KEBIJAKAN PEMBAYARAN
+          </h5>
+          <h6 class="mt-3">
+            Untuk memberikan kemudahan dan kepastian bagi peserta dalam melakukan transaksi, saat ini kami mengimplementasikan sistem pembayaran online melalui dompet elektronik (E-Wallet) seperti GOPAY, DANA, OVO, dan SHOPEE PAY. Kami juga mengimplementasikan sistem pembayaran online melalui rekening BCA. Semua transaksi akan diproses dalam mata uang Rupiah Indonesia.
+          </h6>
+          <h5 class="modal-title mt-5">
+            BUKTI PEMBAYARAN
+          </h5>
+          <h6 class="mt-3">
+            Dokumen yang sah sebagai bukti transaksi atas pemesanan/pembelian dan dapat digunakan sebagai acuan/referensi bagi peserta. Peserta dihimbau untuk menyimpan bukti pembayaran dari setiap pembelian, yang mungkin akan berguna untuk pelayanan setelah pembelian dan sebagai bukti untuk klaim pengembalian dana atau refund apabila terjadi kesalahan.
+          </h6>
+          <h5 class="modal-title mt-5">
+            KEBIJAKAN PENGEMBALIAN DANA
+          </h5>
+          <h6 class="mt-3">
+            Sebelum melakukan permintaan pengembalian dana, mohon agar peserta memastikan bahwa uang yang akan direfund sudah sesuai dengan bukti pembayaran.
+          </h6>
+          <h6 class="mt-3">
+           <b>Kebijakan pengembalian dana berlaku untuk kondisi sebagai berikut:</b> 
+          </h6>
+           <ol class="mt-3">
+            <li class="modal-text mb-2">
+              Nominal dalam tagihan tidak sesuai dengan jumlah harga yang dipublikasikan (penyedia jasa salah dalam menginput harga di website), sehingga peserta melakukan kelebihan transfer
+            </li>
+            <li class="modal-text mb-2">
+              Peserta melakukan double transfer (2x transfer)
+            </li>
+          </ol>
+          <h6 class="mt-3">
+           <b>Prosedur pengembalian dana:</b> 
+          </h6>
+           <ol class="mt-3">
+            <li class="modal-text mb-2">
+              Peserta melakukan permintaan dengan memberi informasi terlebih dahulu pada admin melalui WhatsApp paling lambat 30 hari setelah pembayaran.
+            </li>
+            <li class="modal-text mb-2">
+              Tim keuangan MAXIMA akan melakukan verifikasi, dan jika disetujui maka pengembalian akan segera diproses.
+            </li>
+            <li class="modal-text mb-2">
+              Pengembalian dana hanya dapat dilakukan dengan metode transfer bank atau melalui dompet elektronik dan kami tidak melayani pengembalian dalam bentuk cash.
+            </li>
+            <li class="modal-text mb-2">
+              Dana akan di transfer ke rekening atau dompet elektronik peserta
+            </li>
+            <li class="modal-text mb-2">
+              Selain kebijakan-kebijakan di atas, dapat ditempuh negosiasi melalui jalur chat, form kontak kami, atau whatsapp dan kami akan mempelajari kasus tersebut dan memberikan jawaban dengan segera.
+            </li>
+          </ol>
+          <h5 class="modal-title mt-5">
+            IKHTISAR KEBIJAKAN KAMI
+          </h5>
+          <h6 class="mt-3">
+            Secara umum, ketika peserta mengunjungi situs web kami dan mengakses informasi, peserta akan tetap sebagai anonim. Sebelum kami meminta peserta untuk mengisi informasi, kami akan menjelaskan bagaimana informasi ini akan digunakan. Beberapa bagian dari website kami memerlukan pendaftaran untuk mengaksesnya, walaupun biasanya semua yang diminta adalah berupa alamat e-mail dan beberapa informasi dasar tentang peserta. Ada bagian di mana kami akan meminta informasi tambahan. Kami melakukan ini untuk dapat lebih memahami kebutuhan peserta, dan memberikan pelayanan yang kami percaya mungkin berharga bagi peserta. Beberapa contoh informasi website kami butuhkan seperti nama, email, nomor telepon dan asal sekolah.
+          </h6>
+          <h5 class="modal-title mt-5">
+            KEBIJAKAN PRIVASI
+          </h5>
+          <h6 class="mt-3">
+            MAXIMA menjaga privasi peserta dengan sangat serius. Kami percaya bahwa privasi elektronik sangat penting bagi keberhasilan dan keberlanjutan program kami depan. Kami percaya bahwa informasi ini hanya dan harus digunakan untuk membantu kami dalam menyediakan layanan yang lebih baik. Itulah sebabnya kami telah menempatkan kebijakan untuk melindungi informasi pribadi Anda.
+          </h6>
+          <h5 class="modal-title mt-5">
+           KEAMANAN
+          </h5>
+          <h6 class="mt-3">
+            Website kami memiliki keamanan dalam melindungi informasi dan data peserta. Penyalahgunaan dan perubahan informasi di luar kendali MAXIMA menjadi tanggung jawab masing-masing peserta.
+          </h6>
+          <h5 class="modal-title mt-5">
+            KRITIK, SARAN DAN PESAN
+          </h5>
+          <h6 class="mt-3">
+            Perkembangan dan peningkatan pelayanan MAXIMA tidak terlepas dari adanya masukan dari semua pihak. Jika ada yang ingin memberikan masukan, saran, atau pesan, silahkan menghubungi customer care kami di <a href="mailto:maximasbmptn@gmail.com">maximasbmptn@gmail.com</a> atau menghubungi kami melalui direct message di instagram @maxima.
+          </h6>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Kebijakan kami -->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Kebijakan kami</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5 class="modal-title">
+            KEBIJAKAN PENGGUNA
+          </h5>
+          <h6 class="mt-3">
+            Dengan mengakses website <a href="http://tryoutmaxima.com" target="_blank" rel="noopener noreferrer">Tryoutmaxima.com</a> berarti Anda telah menyetujui aturan, panduan, kebijakan, syarat dan ketentuan yang berlaku di website ini. Aturan, panduan, syarat dan ketentuan tersebut dapat berubah sewaktu-waktu. Mohon untuk menjadi pembaca yang cerdas ya
+          </h6>
+          <h5 class="modal-title mt-4">
+            PEMBATASAN
+          </h5>
+          <h6 class="mt-3">
+          Merek dagang atau brand, logo, dan poster desain grafis yang tertampilkan dalam website ini semuanya adalah milik <a href="http://tryoutmaxima.com" target="_blank" rel="noopener noreferrer">Tryoutmaxima.com</a>. Anda tidak boleh menyalin, memodifikasi, memperbanyak, menjual atau mengeksploitasi dengan cara apapun isi dari situs ini atau perangkat lunak terkait tanpa seizin kami.
+          </h6>
+          <h5 class="modal-title mt-4">
+           KEBIJAKAN PRIVASI
+          </h5>
+          <h6 class="mt-3">
+            Kami sangat mengucapkan terima kasih atas kepercayaan Anda pada Maxima. Kami juga sangat menghormati privasi Anda dan melindungi informasi pribadi Anda sebaik-baiknya. Ketika Anda mendaftarkan diri di website kami, kami menyimpan data diri anda dengan baik. Informasi yang kami dapatkan dari Anda akan digunakan untuk menyebarkan berbagai informasi terkait pendidikan, perguruan tinggi, dunia perkuliahan, dan motivasi diri. <BR>
+            </BR>
+            Kami selalu mengamankan informasi pribadi Anda dengan baik dan bijak. Kami dapat membagikan informasi Anda kepada “Penyedia Layanan Pihak Ketiga” yang berwenang dan telah kami percaya. Penyedia layanan tersebut melakukan fungsinya sesuai dengan kepentingan umum yaitu untuk menyebarkan informasi seputar pendidikan, perguruan tinggi, dunia perkuliahan, atau motivasi diri. Kami juga berbagi informasi dengan Pihak ketiga untuk menyelesaikan proses administrasi. Kami mendorong Pihak Ketiga untuk bertindak setiap saat sesuai dengan Kebijakan Privasi kami serta untuk mengadopsi dan memposting kebijakan privasi mereka sendiri.
+          </h6>
+          <h5 class="modal-title mt-4">
+           PENYANGKALAN
+          </h5>
+          <h6 class="mt-3">
+            Maxima dapat mengubah isi website kapan saja sesuai dengan kebutuhan, situasi, dan kondisi yang ada. Kami berhak mengubah kebijakan deskripsi, informasi, dan harga paket pada Try Out UTBK yang kami selenggarakan.
+          </h6>
+          <h5 class="modal-title mt-4">
+           KESALAHAN PENGETIKAN
+          </h5>
+          <h6 class="mt-3">
+            Apabila terdapat kesalahan dalam harga dan informasi yang tercantum pada produk yang disebabkan oleh kesalahan yang dilakukan oleh Maxima, kami akan bertanggung jawab dengan mengembalikan dana apabila harga tercantum berlebih dari harga sebenarnya. <BR>
+            </BR>
+            Kami juga berhak meminta kekurangan kepada peserta TO apabila dana yang dibayarkan kurang dari harga sebenarnya. Secara detail proses pengembalian dana dijelaskan pada “Syarat dan Ketentuan”. Kesalahan pengetikan yang disebabkan oleh peserta TO merupakan tanggung jawab dan risiko dari masing-masing peserta. Maxima tidak bertanggung jawab atas segala kesalahan pengetikan dari peserta, terutama terkait pengetikan data diri dan lain-lain.
+          </h6>
+          <h5 class="modal-title mt-4">
+           INFO LEBIH LANJUT
+          </h5>
+          <h6 class="mt-3">
+            Apabila Anda mepunyai pertanyaan lebih lanjut, memberikan saran atau kritik, Anda dapat hubungi kami melalui email di<a href="mailto:maximasbmptn@gmail.com"></a> ataupun direct message di instagram @maximasbmptn ataupun nomor whatsapp 081380980013.
+          </h6>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <!-- Floating icon -->
   <div class="fab-wrapper">
     <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
     <label class="fab" for="fabCheckbox">

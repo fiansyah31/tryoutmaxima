@@ -40,7 +40,7 @@
     color: #FFFFFF;
 }
 .card-text {
-    font-weight: 400;
+    font-weight: normal;
     font-size: 18px;
     line-height: 28px;
     color: #F2F2F2;
@@ -85,7 +85,7 @@
 .card-title-content {
     font-weight: 600;
     font-size: 26px;
-    line-height: 36px;
+    line-height: 32px;
     color: #494848;
     }
 .card-text-content {
@@ -336,6 +336,8 @@ footer {
 }
 
 
+
+/*floating icon melayang*/
 .fab-wrapper {
     position: fixed;
     bottom: 3rem;
@@ -353,7 +355,7 @@ footer {
     background: #3484E2;
     border-radius: 50%;
     background: #3484E2;
-    box-shadow: 0px 5px 20px #81a4f1;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease;
     z-index: 1;
     border-bottom-right-radius: 6px;
@@ -379,7 +381,7 @@ footer {
   }
   .fab:hover {
     background: #2c87e8;
-    box-shadow: 0px 5px 20px 5px #81a4f1;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
   }
   
   .fab-dots {
@@ -464,7 +466,7 @@ footer {
     align-items: center;
     justify-content: center;
     color: #DE6060;
-    box-shadow: 0 0.1rem 1rem rgba(24, 66, 154, 0.82);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     transition: all 1s ease;
   
     opacity: 0;
@@ -494,4 +496,27 @@ footer {
   .fab-wheel .fab-action-4 {
     left: 0;
     bottom: -1rem;
+  }
+
+
+  /*MODAL*/
+  .modal-title {
+      color: #494848;
+      font-size: 20px;
+      font-weight: 500;
+  }
+  .modal-body h6 {
+      font-size: 14px;
+      font-weight: 400;
+      color: #6d6d6d;
+      line-height: 26px;
+  }
+  .modal-body ol li {
+    font-size: 16px;
+    font-weight: normal;
+    color: #6d6d6d;
+    line-height: 26px;
+  }
+  .modal-body img {
+      border-radius: 15px;
   }
