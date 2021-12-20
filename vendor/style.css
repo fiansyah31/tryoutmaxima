@@ -282,6 +282,11 @@ footer {
 .nav-footer .nav-item img {
     width: 100px;
 }
+.footer-licensi {
+    font-size: 16px;
+    font-weight: normal;
+    color: #797979;
+}
 @media (max-width:967px) {
     .bg-footer{
         width: 100%;
@@ -371,6 +376,7 @@ footer {
     display: none;
   }
   .fab {
+    cursor: pointer;
     position: absolute;
     bottom: -1rem;
     right: -1rem;
