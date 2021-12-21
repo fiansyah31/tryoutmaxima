@@ -13,16 +13,15 @@
     <link rel="stylesheet" href="/vendor/style.css">
     <title>Tyrout Maxima</title>
   </head>   
-  <body>
-               
-   <div class="background-header w-100 pb-5 pt-4">
-       <header>
-           <nav class="navbar fixed-top navbar-expand-lg nav-maxi navbar-light">
-               <div class="container">
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="300" class="scrollspy-example" tabindex="0">
+    <div class="background-header w-100 pb-5 pt-4">
+      <header>
+        <nav class="navbar fixed-top navbar-expand-lg nav-maxi navbar-light">
+          <div class="container">
                  <a class="navbar-brand position-relative" style="z-index: 00000;" href="/">
                    <img src="https://tryoutmaxima.com/images/logo.png" alt="brand">
-                 </a> 
-                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg">
+                  </a> 
+                  <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="offcanvas offcanvas-end px-3" tabindex="-1" id="navbarOffcanvasLg">
@@ -30,10 +29,10 @@
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
-                  <div class="navbar-collapse" id="list-example">
-                    <ul class="nav nav-maxima me-auto mb-2 mb-lg-0">
+                  <div class="navbar-collapse">
+                    <ul class="nav nav-maxima me-auto mb-2 mb-lg-0 nav-pills" id="navbar-example2">
                       <li class="nav-item">
-                        <a class="nav-link nav-color active" aria-current="page" href="#scrollspyHeading1">Home</a>
+                        <a class="nav-link nav-color" aria-current="page" href="#scrollspyHeading1">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link nav-color"href="#scrollspyHeading2">Keunggulan</a>
@@ -48,12 +47,10 @@
                     <a href="#scrollspyHeading3" class="btn btn-primary px-3 py-2">Daftar Sekarang</a>
                   </div>
                 </div>             
-                 
-               </div>
+              </div>
             </nav>
-       </header>
-      
-       <section class="hero-page">
+          </header> 
+          <section class="hero-page" id="scrollspyHeading1">
            <div class="container-fluid">
             <div class="position-relative py-2">
               <img src="/image/linetwo.svg" class="position-absolute" alt="corak" style=" top: -90px; width: 80px; left: 0;" srcset="">
@@ -61,7 +58,7 @@
             <div class="position-relative py-2">
                 <img src="/image/corak-dot.svg" class="position-absolute d-none d-lg-block " alt="corak" style=" top: -60px; width: 100px; left: 70%;" srcset="">
             </div>
-               <div class="row" id="scrollspyHeading1">
+               <div class="row">
                    <div class="col-12 col-md-6 col-lg-6 position-relative">
                        <div class="card hero-unggulan mb-3 border-0" data-aos="fade-right" style="max-width: 100%; background: transparent;">
                         <div class="row g-0">
@@ -106,8 +103,8 @@
                 <img src="/image/Ellipse 2.svg" class="position-absolute" alt="corak" style=" top: -30px; width: 150px; left: 80%;" srcset="">
             </div>
         </div>
-    </section>
-  </div>
+          </section>
+    </div>
   <section class="page-content" id="scrollspyHeading2">
     <div class="container-fluid">
       <div class="position-relative mt-4 mb-4 py-2">
@@ -338,7 +335,7 @@
       </div>
     </div>
   </section>
-  <footer id="scrollspyHeading5">
+  <footer>
     <div class="position-relative">
       <div class="bg-footer position-absolute">
         <img src="/image/Ellipse 2.svg" class="position-absolute" alt="corak" style="width:200px; top:60%; left:0;">
@@ -346,7 +343,7 @@
         <img src="/image/corak-dot.svg" class="position-absolute" alt="corak" style="width:80px; top:1%; left:70%;">
       </div>
     </div>
-    <div class="footer-q">
+    <div class="footer-q" id="scrollspyHeading5">
       <div class="container">
         <div class="row position-relative">
           <div class="col-12 col-md-5 col-lg-5">
@@ -708,6 +705,7 @@
       </a>
     </div>
   </div>
+  
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
